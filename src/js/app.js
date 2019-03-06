@@ -81,3 +81,9 @@ window.addEventListener('load', () => {
             });
     }
 });
+
+// event to disable Add to Homescreen feature
+// window.addEventListener('beforeinstallprompt', event => {
+//     event.preventDefault();
+//     return false;
+// });
