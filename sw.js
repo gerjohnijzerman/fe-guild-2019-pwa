@@ -21,7 +21,7 @@ self.addEventListener('fetch', event => {
 });
 
 // event to disable Add to Homescreen feature
-window.addEventListener('beforeinstallprompt', event => {
-    event.preventDefault();
-    return false;
-});
+// window.addEventListener('beforeinstallprompt', event => {
+//     event.preventDefault();
+//     return false;
+// });
